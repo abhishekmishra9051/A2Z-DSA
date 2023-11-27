@@ -1,0 +1,21 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Compile and run Java",
+            "type": "shell",
+            "command": "powershell",
+            "args": [
+                "-Command",
+                "javac ${file} ; Get-Content input.txt | java ${fileBasenameNoExtension} | Set-Content output.txt"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}
+
+
+
