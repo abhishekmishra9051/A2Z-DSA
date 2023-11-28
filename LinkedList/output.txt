@@ -1,0 +1,4 @@
+Enter the number of elements:
+Enter the elements:
+Linked List elements:
+4 2 5 1 
